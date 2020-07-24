@@ -2,5 +2,8 @@ import sys
 
 print ("Hello World")
 
-print (sys.version)
-print (sys.executable)
+vers = sys.version
+execut = sys.executable
+
+print ("My version is: ", vers)
+print ("My executable is: ", execut)
